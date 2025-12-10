@@ -1,0 +1,7 @@
+{
+  "name": "RUSSOLOCO",
+  "description": "Exclusive event management app with a liquid glass aesthetic. Features guest registration, admin dashboard for approvals, and QR code entry scanning.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
