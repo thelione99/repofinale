@@ -117,7 +117,7 @@ const Scanner: React.FC = () => {
 
       {/* STATO 2: Camera Attiva */}
       <div className={`absolute inset-0 z-0 ${isCameraActive ? 'opacity-100' : 'opacity-0'}`}>
-        <video ref={videoRef} className="w-full h-full object-cover" playsInline muted />
+        <video ref={videoRef} className="w-full h-full object-cover" playsInline muted autoPlay />
         <canvas ref={canvasRef} className="hidden" />
         
         {/* Mirino */}
